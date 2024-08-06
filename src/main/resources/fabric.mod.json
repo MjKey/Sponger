@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "sponger",
+  "version": "${version}",
+  "name": "Sponger",
+  "description": "A discarded sponge also absorbs water! And dries in nether.",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/sponger/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "ru.MjKey.sponger.client.SpongerClient"
+    ],
+    "main": [
+      "ru.MjKey.sponger.Sponger"
+    ]
+  },
+  "mixins": [
+    "sponger.mixins.json",
+    {
+      "config": "sponger.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}",
+    "cloth-config": "*",
+    "modmenu": "*"
+  }
+}
