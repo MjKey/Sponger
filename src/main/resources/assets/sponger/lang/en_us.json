@@ -1,0 +1,9 @@
+{
+  "text.autoconfig.sponger.title": "Sponger Config",
+  "text.autoconfig.sponger.option.enableInOverworld": "Enable in Overworld",
+  "text.autoconfig.sponger.option.enableInOverworld.@Tooltip": "If disabled, sponges won't absorb water in the Overworld",
+  "text.autoconfig.sponger.option.enableInNether": "Enable in Nether",
+  "text.autoconfig.sponger.option.enableInNether.@Tooltip": "If disabled, wet sponges won't dry in the Nether",
+  "text.autoconfig.sponger.option.spongeRadius": "Sponge Radius",
+  "text.autoconfig.sponger.option.spongeRadius.@Tooltip": "The radius in which sponges absorb water"
+}

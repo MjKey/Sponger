@@ -6,5 +6,6 @@ public class SpongerClient implements ClientModInitializer {
 
     @Override
     public void onInitializeClient() {
+
     }
 }

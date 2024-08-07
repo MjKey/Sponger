@@ -1,0 +1,9 @@
+{
+  "text.autoconfig.sponger.title": "Настройки Sponger",
+  "text.autoconfig.sponger.option.enableInOverworld": "Включить в обычном мире",
+  "text.autoconfig.sponger.option.enableInOverworld.@Tooltip": "Если отключено, губки не будут поглощать воду в обычном мире",
+  "text.autoconfig.sponger.option.enableInNether": "Включить в Нижнем мире",
+  "text.autoconfig.sponger.option.enableInNether.@Tooltip": "Если отключено, мокрые губки не будут высыхать в Нижнем мире",
+  "text.autoconfig.sponger.option.spongeRadius": "Радиус действия губки",
+  "text.autoconfig.sponger.option.spongeRadius.@Tooltip": "Радиус, в котором губки поглощают воду"
+}
